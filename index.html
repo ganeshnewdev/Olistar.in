@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Professional Video Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">JD<span class="accent">.</span></div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-overlay"></div>
+            <div class="animated-bg"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">Crafting Visual</span>
+                <span class="line accent-text">Stories</span>
+            </h1>
+            <p class="hero-tagline">Professional Video Editor specializing in cinematic content that captivates audiences</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">I'm a passionate video editor with over 5 years of experience creating compelling visual narratives for brands, content creators, and production studios.</p>
+                    <p>Specializing in both short-form and long-form content, I bring stories to life through precise editing, color grading, and motion graphics. My expertise spans across various industries including tech, fashion, lifestyle, and entertainment.</p>
+                    <div class="skills">
+                        <h3>Tools & Software</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">DaVinci Resolve</span>
+                            <span class="skill-tag">Adobe After Effects</span>
+                            <span class="skill-tag">Premiere Pro</span>
+                            <span class="skill-tag">Final Cut Pro</span>
+                            <span class="skill-tag">Motion Graphics</span>
+                            <span class="skill-tag">Color Grading</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>150+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50M+</h3>
+                        <p>Total Views</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="music">Music Videos</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+1" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h3>Brand Campaign</h3>
+                            <p>Commercial • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+2" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h3>Social Media Campaign</h3>
+                            <p>Short Form • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="music">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+3" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <h3>Music Video</h3>
+                            <p>Music • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+4" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <h3>Product Launch</h3>
+                            <p>Commercial • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+5" alt="Project 5">
+                        <div class="portfolio-overlay">
+                            <h3>YouTube Series</h3>
+                            <p>Long Form • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="music">
+                    <div class="portfolio-thumb">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/666?text=Project+6" alt="Project 6">
+                        <div class="portfolio-overlay">
+                            <h3>Live Performance</h3>
+                            <p>Music • 2024</p>
+                            <a href="#" class="play-btn">▶</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3>Short-Form Editing</h3>
+                    <p>Engaging content for TikTok, Instagram Reels, and YouTube Shorts optimized for maximum impact</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎥</div>
+                    <h3>Long-Form Editing</h3>
+                    <p>Professional editing for YouTube videos, documentaries, and corporate presentations</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Dynamic animations, title sequences, and visual effects to enhance your content</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📺</div>
+                    <h3>Ad Videos</h3>
+                    <p>Compelling commercial content designed to convert viewers into customers</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Color Grading</h3>
+                    <p>Professional color correction and grading to achieve the perfect cinematic look</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎵</div>
+                    <h3>Music Videos</h3>
+                    <p>Creative editing that syncs perfectly with rhythm and enhances musical storytelling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"John's editing skills transformed our brand videos. His attention to detail and creative vision exceeded our expectations."</p>
+                    <div class="client-info">
+                        <h4>Sarah Chen</h4>
+                        <span>Marketing Director, TechCorp</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Working with John was seamless. He understood our vision perfectly and delivered outstanding results on time."</p>
+                    <div class="client-info">
+                        <h4>Michael Rodriguez</h4>
+                        <span>Content Creator</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The quality of editing and professionalism is unmatched. Our engagement rates increased by 300% after working with John."</p>
+                    <div class="client-info">
+                        <h4>Emma Thompson</h4>
+                        <span>CEO, Fashion Forward</span>
+                    </div>
+                </div>
+            </div>
+            <div class="client-logos">
+                <img src="https://via.placeholder.com/150x60/1a1a1a/666?text=Client+1" alt="Client 1">
+                <img src="https://via.placeholder.com/150x60/1a1a1a/666?text=Client+2" alt="Client 2">
+                <img src="https://via.placeholder.com/150x60/1a1a1a/666?text=Client+3" alt="Client 3">
+                <img src="https://via.placeholder.com/150x60/1a1a1a/666?text=Client+4" alt="Client 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            
